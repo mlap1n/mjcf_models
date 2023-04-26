@@ -25,8 +25,8 @@
                         <joint name="l_finger_1_joint_3" pos="0 0 0" axis="0 0 1" limited="true" range="-0.6632 1.0471" />
                         <geom type="mesh" contype="0" conaffinity="0" group="1"  mesh="link_3" />
                         <geom type="mesh"  mesh="collision_link_3" />
-                        <site name="l_fingertip_1_link_3_force_s" size="0.003 0.004 0.015" type="box" pos="0.036 0.0048 0.0" rgba="1 1 1 1"/>
-                        <site name="l_fingerpad_1_link_3_force_s" size="0.014 0.004 0.0155" type="box" pos="0.018 0.0048 0.0" rgba="1 1 1 1"/>
+                        <site name="l_fingertip_1_link_3_force_s" size="0.003 0.004 0.015" type="box" pos="0.036 0.0048 0.0" rgba="1 1 1 0"/>
+                        <site name="l_fingerpad_1_link_3_force_s" size="0.014 0.004 0.0155" type="box" pos="0.018 0.0048 0.0" rgba="1 1 1 0"/>
                     </body>
                 </body>
             </body>
@@ -52,8 +52,8 @@
                         <joint name="l_finger_2_joint_3" pos="0 0 0" axis="0 0 1" limited="true" range="-0.6632 1.0471" />
                         <geom type="mesh" contype="0" conaffinity="0" group="1"  mesh="link_3" />
                         <geom type="mesh"  mesh="collision_link_3" />
-                        <site name="l_fingertip_2_link_3_force_s" size="0.003 0.004 0.015" type="box" pos="0.036 0.0048 0.0" rgba="1 1 1 1"/>
-                        <site name="l_fingerpad_2_link_3_force_s" size="0.014 0.004 0.0155" type="box" pos="0.018 0.0048 0.0" rgba="1 1 1 1"/>
+                        <site name="l_fingertip_2_link_3_force_s" size="0.003 0.004 0.015" type="box" pos="0.036 0.0048 0.0" rgba="1 1 1 0"/>
+                        <site name="l_fingerpad_2_link_3_force_s" size="0.014 0.004 0.0155" type="box" pos="0.018 0.0048 0.0" rgba="1 1 1 0"/>
                     </body>
                 </body>
             </body>
@@ -80,8 +80,8 @@
                         <joint name="l_finger_middle_joint_3" pos="0 0 0" axis="0 0 1" limited="true" range="-0.6632 1.0471" />
                         <geom type="mesh" contype="0" conaffinity="0" group="1"  mesh="link_3" />
                         <geom type="mesh"  mesh="collision_link_3" />
-                        <site name="l_fingertip_middle_link_3_force_s" size="0.003 0.004 0.015" type="box" pos="0.036 0.0048 0.0" rgba="1 1 1 1"/>
-                        <site name="l_fingerpad_middle_link_3_force_s" size="0.014 0.004 0.0155" type="box" pos="0.018 0.0048 0.0" rgba="1 1 1 1"/>
+                        <site name="l_fingertip_middle_link_3_force_s" size="0.003 0.004 0.015" type="box" pos="0.036 0.0048 0.0" rgba="1 1 1 0"/>
+                        <site name="l_fingerpad_middle_link_3_force_s" size="0.014 0.004 0.0155" type="box" pos="0.018 0.0048 0.0" rgba="1 1 1 0"/>
                     </body>
                 </body>
             </body>
