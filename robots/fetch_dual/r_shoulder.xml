@@ -1,5 +1,5 @@
 <mujoco>
-    <body name="r_shoulder_pan_link" pos="-0.072 -0.27 0.4">
+    <body name="r_shoulder_pan_link" pos="0.0 -0.12 0.34">
         <inertial pos="0.0927 -0.0056 0.0564" quat="-0.136432 0.762398 -0.156155 0.612985" mass="2.5587" diaginertia="0.00896934 0.00864854 0.00408212"/>
         <joint name="r_shoulder_pan_joint" pos="0 0 0" axis="0 0 1" range="-1.6056 1.6056" damping="1"/>
         <geom type="mesh" rgba="1 1 1 1" mesh="r_shoulder_pan_link_collision"/>
