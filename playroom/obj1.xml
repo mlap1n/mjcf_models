@@ -75,7 +75,6 @@
     <worldbody>
         <body name="obj1" pos="0 -0.5 0.66" quat="0.707388 0 0.706825 0">
             <inertial pos="0 0 0" mass="0.648" diaginertia="0.001944 0.001944 0.0003888" />
-            <joint type="free" />
             <geom size="0.03 0.03 0.09" type="box" rgba="0.8 0.7 0.9 1" />
         </body>
     </worldbody>
