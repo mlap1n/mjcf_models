@@ -12,12 +12,12 @@
             <inertial pos="-0.000983929 -0.000886078 0.286874" quat="0.99962 -0.000833361 0.0269789 0.00565622" mass="10.949" diaginertia="0.370106 0.367813 0.0963668"/>
             <joint name="torso_lift_joint" pos="0 0 0" axis="0 0 1" type="slide" range="0.37 0.4" damping="100"/>
             <geom type="mesh" rgba="1 1 1 1" mesh="torso_lift_link_collision"/>
-
+            <!--
             <body name="l_hand" pos="-0.07 0.11 0.08">
                 <geom type="mesh" rgba="1 1 1 1" mesh="thing" pos="0.0 0.0 0.0" quat="1 0 0 1"/>
                 <include file="robots/fetch_dual/l_shoulder.xml"></include>
             </body>
-
+            -->
             <body name="r_hand" pos="-0.07 -0.11 0.08">
                 <geom type="mesh" rgba="1 1 1 1" mesh="thing" pos="0.0 0.0 0.0" quat="-1 0 0 1"/>
                 <include file="robots/fetch_dual/r_shoulder.xml"></include>

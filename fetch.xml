@@ -13,11 +13,11 @@
     <include file="robots/fetch_dual/r_actuator.xml"></include>
     <include file="robots/gripper/r_actuator.xml"></include>
     <include file="robots/gripper/r_gripper.xml"></include>
-
+    <!--
     <include file="robots/fetch_dual/l_actuator.xml"></include>
     <include file="robots/gripper/l_actuator.xml"></include>
     <include file="robots/gripper/l_gripper.xml"></include>
-
+    -->
     <include file="robots/gripper/sensors.xml"></include>
     <include file="robots/fetch_dual/sensors.xml"></include>
 </mujoco>
