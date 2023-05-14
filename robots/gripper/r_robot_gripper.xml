@@ -3,6 +3,7 @@
         <body name="r_gripper_palm_link" pos="1.64197e-10 0.17378 7.2848e-05" quat="-0.382132 8.29339e-10 0.924108 0.000735892" childclass="gripper:black">
             <geom type="mesh" contype="0" conaffinity="0" group="1" mesh="palm" />
             <geom name="r_gripper_palm" type="mesh" group="0" mesh="collision_palm" />
+            <site name="r_gripper_palm_site" pos="0 0.1 0" size="0.01" rgba="1 0 0 1" type="sphere" group="1"/>
         </body>
         <body name="r_finger_1_link_0" pos="0.00679839 0.195255 -0.0575191" quat="-0.653702 -0.270618 -0.269798 -0.653184" childclass="GRIPPER">
             <inertial pos="-0.01 0 0" quat="0.5 0.5 0.5 0.5" mass="0.1" diaginertia="2.5e-05 2.5e-05 1.8e-05" />
